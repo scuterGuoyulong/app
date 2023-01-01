@@ -1,0 +1,1 @@
+<view class="content"><view><text>账号</text></view><view><navigator url="/pages/login/login">登陆</navigator></view></view>

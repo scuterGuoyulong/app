@@ -1,0 +1,258 @@
+
+.shop-list-list {
+	position: relative;
+	margin-top: 25rpx;
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+	align-items: flex-start;
+	flex-direction: row;
+	border-bottom-width: 1rpx;
+	border-style: solid;
+	border-color: #F7F7F7;
+}
+.shop-list-but-box {
+	position: absolute;
+	bottom: 26px;
+	right: 10px;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+.shop-list-but {
+	color: white;
+	border-radius: 20px;
+	font-size: 13px;
+	background-color: rgba(255, 65, 0, 1);
+	padding: 10rpx 20rpx;
+	margin-right: 10px;
+}
+.shop-list-img {
+	margin-right: 20rpx;
+	margin-left: 20rpx;
+	width: 150rpx;
+	height: 150rpx;
+}
+.shop-list-title {
+	font-size: 16px;
+	margin-bottom: 10rpx;
+	color: rgba(51, 51, 51, 1);
+	/* color: #333333; */
+}
+.shop-list-price {
+	font-size: 16px;
+	color: #FF4100;
+	line-height: 30px;
+}
+.scroll-Ys {
+	background-color: #ffffff;
+	height: 650rpx;
+	width: 100%;
+}
+.scroll-Yss {
+	background-color: #ffffff;
+	height: 800rpx;
+	width: 100%;
+}
+.shop-list-box {
+	position: relative;
+	background-color: white;
+	width: 100%;
+	height: 380px;
+	border-radius: 10rpx;
+}
+.mark-title {
+	height: 80rpx;
+	font-size: 20px;
+	align-items: flex-start;
+	justify-content: center;
+}
+.mark-tui {
+	/* position:relative; */
+	height: 20rpx;
+	font-size: 20px;
+	line-height: 100rpx;
+	right: 0;
+	border-bottom-width: 1rpx;
+	border-style: solid;
+	border-color: #F7F7F7;
+}
+.fanhui {
+	width: 30rpx;
+	height: 30rpx;
+	margin-top: 40rpx;
+	text-align: center;
+	margin-right: 25rpx;
+}
+.zengjia {
+	width: 40rpx;
+	height: 40rpx;
+	margin-left: 30rpx;
+	margin-top: 34rpx;
+	margin-bottom: 10px;
+}
+.add-shop {
+	font-size: 16px;
+	color: #333333;
+	left: 20rpx;
+	z-index: 10;
+	margin-left: 5px;
+}
+.meiyanbut {
+
+	height: 80rpx;
+	width: 80rpx;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+.but-img {
+	width: 38rpx;
+	height: 34rpx;
+}
+.id {
+	font-size: 14px;
+	color: white;
+}
+.text-box {
+	font-size: 12px;
+	color: white;
+}
+.mark-text {
+	color: white;
+	font-size: 20px;
+}
+.mark {
+	position: fixed;
+	top: 0px;
+	background-color: #9FA3A7;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.but {
+	position: fixed;
+	bottom: 0px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 160rpx;
+}
+.commodyti-box {
+	align-items: center;
+	justify-content: center;
+}
+.tui {
+	width: 200px;
+	height: 200px;
+}
+.arrow-box {
+	position: fixed;
+	top: 80rpx;
+	right: 30rpx;
+	z-index: 10;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 80rpx;
+	width: 80rpx;
+	align-items: center;
+	justify-content: center;
+}
+.tui-img {
+	width: 36rpx;
+	height: 36rpx;
+}
+.arrow-boxs {
+	padding: 1%;
+	align-items: center;
+	flex-direction: row;
+	position: fixed;
+	padding-right: 20rpx;
+	top: 80rpx;
+	left: 30rpx;
+	z-index: 10;
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0, 0.2);
+	/* background-color: #FFFFFF; */
+}
+.user-img {
+	margin-right: 5px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+.jieshao {
+	flex-direction: column;
+}
+.jiesu {
+	padding: 10px 20px 10px 20px;
+	color: white;
+	font-size: 16px;
+}
+.arrow {
+	width: 15px;
+	height: 15px;
+}
+.model {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+}
+.model-pup {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+}
+.model-body {
+	width: 550rpx;
+	padding: 30rpx;
+	background-color: white;
+	border-radius: 20rpx;
+}
+.model-cont {
+	font-size: 35rpx;
+	color: #333333;
+}
+.model-bot {
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30rpx;
+}
+.model-btn {
+	width: 200rpx;
+	height: 80rpx;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #F8F8F8;
+	border-width: 1rpx;
+	border-color: #E6E6E6;
+	border-style: solid;
+	border-radius: 40rpx;
+}
+.model-btn1 {
+	width: 200rpx;
+	height: 80rpx;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #0462E8;
+	border-width: 1rpx;
+	border-color: #E6E6E6;
+	border-style: solid;
+	border-radius: 40rpx;
+}
+
